@@ -1,0 +1,147 @@
+body {
+    color: white;
+    zoom: 2;
+}
+
+.tftlinkcontainer {
+    width: 100%;
+}
+
+.linkstable {
+    width: 100%;
+}
+
+.linkstableitem {
+    background: #202020;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.linkstableitem:hover {
+    background: #707050;
+}
+
+
+.linksinlinelink {
+    display:block;
+}
+
+.tftitem {
+    background: #202020;
+    border-radius: 5px;
+    border: 5px solid transparent;
+    margin: 10px 5px auto 5px;
+    cursor: pointer;
+}
+
+.tftitem:hover {
+    background: #707050;
+}
+
+.tftheader {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid white;
+}
+
+.tftcompcontainer {
+    display: flex;
+    justify-content: normal;
+}
+
+.tftcomp {
+    background: black;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 21px;
+    margin: auto;
+}
+
+.tftcomp + .tftcomp
+{
+    margin-left: 10px;
+}
+
+.tftcarrypic {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.tftcontent {
+    display: flex;
+    justify-content: normal;
+}
+
+.tftleftcontent {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.tftitemcontainer {
+    display: flex;
+    justify-content: normal;
+    margin-top: 10px;
+}
+
+.tftitemchamp {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gold;
+    margin-right: 35px;
+}
+
+.tftitemitem {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.tftcontentseperator {
+    content: "";
+}
+
+.tftcontentseperator--horizontal {
+    border-bottom: 0.5px solid white;  
+    width: 100%;
+}
+
+.tftcontentseperator--vertical {
+    left: 50%; 
+    border-left: 0.5px solid white;  
+    height: auto;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.tftrightcontent {
+    width: 50%;
+}
+
+.tftrightheading {
+    margin: 2px 0px 0px 4px;
+}
+
+.tftrigthcontent--ul {
+    margin: 5px auto 10px auto;
+}
+
+.tftfootercontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tftfooteritem {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8px;
+    color: #A0A0A0;
+}

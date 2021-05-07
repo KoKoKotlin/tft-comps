@@ -1,0 +1,190 @@
+{
+    "version": "0.2",
+    "last_update": "10/03/2020",
+    "refs": {
+        "aphelios": "https://cdn.lolchess.gg/upload/images/champions/Aphelios_RRzWEdqDXZ7X5P0ssZsmeCNA2DAYQW7ePnpxeAGA.png",
+        "ashe": "https://cdn.lolchess.gg/upload/images/champions/Ashe_Rgwv27OjktkhrsZXJKi9XA8ueXELO0v64GPmRpMQ.png",
+        "draven": "https://cdn.lolchess.gg/upload/images/champions/Draven_ORbxXMX6fv4fPI5jfNqSAN3iSeS2WCdB5AcDWeS2.png",
+        "jax": "https://cdn.lolchess.gg/upload/images/champions/Jax_pStfiRHgW8jz6GlGo3RXuO9egAKifCl7ZCWe6UXK.png",
+        "karma": "https://cdn.lolchess.gg/upload/images/champions/Karma_k7GafUn0xjuzEMUKbvW4do2lAxrqdyYX5RtSTXxQ.png",
+        "kata": "https://cdn.lolchess.gg/upload/images/champions/Katarina_8cM3CMT6xafLZjrj4ejZRZFKyjOLpFY0BrYS9cXl.png",
+        "leblanc": "https://cdn.lolchess.gg/upload/images/champions/Leblanc_thrseGyeuXqT9Ja7iBFqJ58T2iNzmDzkydvBYm3z.png",
+        "noc": "https://cdn.lolchess.gg/upload/images/champions/Nocturne_gZDyvm536TRc61gUXqk7RxJIvfPQh9FCrFdyjyvc.png",
+        "velkoz": "https://cdn.lolchess.gg/upload/images/champions/Velkoz_7ZL9tqyiQe28kVpCU2sCny2Ykd8RQlOORU08RgLi.png",
+        "ziggs": "https://cdn.lolchess.gg/upload/images/champions/Ziggs_JpcPLGPOo4gDeM012LBAK1QdxKBiHhFrz6kVXTZ3.png",
+        "zyra": "https://cdn.lolchess.gg/upload/images/champions/Zyra_E5c4kbT5VoQZrGR9B949F3PErLm5Duz5MAaRohFi.png",
+
+
+        "archangels": "https://cdn.lolchess.gg/upload/images/items/3285_8H5TqcPL1z03UB6hTyP9x6N5hZ9jVJIcf6YhxpUg.png",
+        "bluebuff": "https://cdn.lolchess.gg/upload/images/items/BlueBuff_he8xAdq6IxMMfXb2kQ7IECzEcEvfPovwMm2gbIFh.png",
+        "bt": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3072.png",
+        "deathblade": "https://cdn.lolchess.gg/images/tft/item/LordsEdge.png",
+        "hand_of_justice": "https://cdn.lolchess.gg/images/tft/item/HandofJustice.png",
+        "ga": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3026.png",
+        "giant_slayer": "https://cdn.lolchess.gg/images/tft/item/GiantSlayer.png",
+        "gunblade": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3146.png",
+        "ie": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3031.png",
+        "ionik_spark": "https://cdn.lolchess.gg/images/tft/item/IonicSpark.png",
+        "juweled_gauntlet": "https://cdn.lolchess.gg/images/tft/item/ArcaneGauntlet.png",
+        "morellos": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3165.png",
+        "quicksilver": "https://cdn.lolchess.gg/images/tft/item/Quicksilver.png",
+        "rabadons": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3089.png",
+        "rageblade": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3124.png",
+        "rapidfire": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3094.png",
+        "riskthirster": "https://cdn.lolchess.gg/upload/images/items/3072_jqsIIvFZekepz2DOnxG4Kg1QZLuAUcIDpDcculuN.png",
+        "runaans": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3085.png",
+        "shojin": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3161.png",
+        "sunfire": "https://cdn.lolchess.gg/images/tft/item/SunfireCape.png",
+        "titans_resolve": "https://cdn.lolchess.gg/images/tft/item/TitansResolve.png",
+
+        "ap": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3089.png",
+        "as": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3124.png",
+        "dps": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3031.png",
+        "tank": "https://cdn.lolchess.gg/images/tft/item/SunfireCape.png"
+    },
+    "data": [
+        {
+            "id": "",
+            "name": "Assassin Leblanc",
+            "comps": ["6x assassin", "3x revenant"],
+            "carries": ["leblanc"],
+            "items": [ 
+                {
+                    "champ": "leblanc",
+                    "items": ["bluebuff", "ga"]
+                },
+                {
+                    "champ": "kata",
+                    "items": ["ap"]
+                },
+                {
+                    "champ": "noc",
+                    "items": ["dps"]
+                }
+            ],
+            "requirements": ["items"],
+            "playstyle": ["roll on 7 for 3 star leblanc, kat, noc", "kat, noc secondary carries depending on items"],
+            "boardUrl": "https://lolchess.gg/builder/set5?deck=e2a7f850a85211eba08bad52503f14d0"
+        },
+        {
+            "id": "",
+            "name": "Nightbringer Aphelios",
+            "comps": ["mixed"],
+            "carries": ["aphelios"],
+            "items": [
+                {
+                    "champ": "aphelios",
+                    "items": ["riskthirster", "rageblade", "deathblade"]
+                }
+            ],
+            "requirements": ["items"],
+            "playstyle": ["put items on backline/ranged units"],
+            "boardUrl": "https://lolchess.gg/builder/set5?deck=c8647a10a90c11eb9a1a6f98d79d8694"
+        },
+        {
+            "id": "",
+            "name": "Draconic Ashe",
+            "comps": ["mixed"],
+            "carries": ["ashe"],
+            "items": [
+                {
+                    "champ": "ashe",
+                    "items": ["riskthirster", "rageblade", "deathblade"]
+                }
+            ],
+            "requirements": ["items"],
+            "playstyle": ["put items on backline/ranged units"],
+            "boardUrl": "https://lolchess.gg/builder/set5?deck=4d0a8c00a91311eb8acbe3572e14e833"
+        },
+        {
+            "id": "",
+            "name": "Draconic Zyra",
+            "comps": ["mixed"],
+            "carries": ["zyra"],
+            "items": [
+                {
+                    "champ": "zyra",
+                    "items": ["shojin", "juweled_gauntlet"]
+                }
+            ],
+            "requirements": ["items", "early draconics"],
+            "playstyle": ["-"],
+            "boardUrl": "https://lolchess.gg/builder/set5?deck=45bd4010a91211eb8c9f91ae90e25cd3"
+        },
+        {
+            "id": "",
+            "name": "Redeemed Vel’Koz",
+            "comps": ["6x Redeemed"],
+            "carries": ["velkoz"],
+            "items": [
+                {
+                    "champ": "jax",
+                    "items": ["gunblade", "quicksilver", "juweled_gauntlet"]
+                }
+            ],
+            "requirements": ["items", "early spell casters"],
+            "playstyle": ["items on spell casters"],
+            "boardUrl": "https://lolchess.gg/builder/set5?deck=c23685a0a90e11eb86385786ca719f58"
+        },
+        {
+            "id": "",
+            "name": "Skirmishers",
+            "comps": ["6x Skirmishers"],
+            "carries": ["jax"],
+            "items": [
+                {
+                    "champ": "jax",
+                    "items": ["quicksilver", "riskthirster", "runaans"]
+                }
+            ],
+            "requirements": ["skirmisher start", "<strong stlye='color: red;'>Jax items are SUPER important</strong>"],
+            "playstyle": ["items on ad early game unit"],
+            "boardUrl": "https://lolchess.gg/builder/set5?deck=4eb32200a85911eb8176a160c0426b5c"
+        },
+        {
+            "id": "",
+            "name": "Forgotten Draven",
+            "comps": ["6x Forgotten"],
+            "carries": ["draven"],
+            "items": [
+                {
+                    "champ": "draven",
+                    "items": ["rapidfire", "riskthirster", "rageblade"]
+                }
+            ],
+            "requirements": ["draven items"],
+            "playstyle": ["-"],
+            "boardUrl": "https://lolchess.gg/builder/set5?deck=2b357ed0a90e11ebb52bc73dfa9365bd"
+        },
+        {
+            "id": "",
+            "name": "Dawnbringer Karma",
+            "comps": ["6x Dawnbringer"],
+            "carries": ["karma"],
+            "items": [
+                {
+                    "champ": "karma",
+                    "items": ["juweled_gauntlet", "bluebuff", "rabadons"]
+                }
+            ],
+            "requirements": ["items"],
+            "playstyle": ["items on early game casters"],
+            "boardUrl": "https://lolchess.gg/builder/set5?deck=6c8c6a00a37911ebb8779da8535ae583"
+        },
+        {
+            "id": "",
+            "name": "Helion Reroll",
+            "comps": ["5x Helion"],
+            "carries": ["ziggs"],
+            "items": [
+                {
+                    "champ": "ziggs",
+                    "items": ["juweled_gauntlet", "bluebuff", "archangels"]
+                }
+            ],
+            "requirements": ["items"],
+            "playstyle": ["-"],
+            "boardUrl": "https://lolchess.gg/builder/set5?deck=bb8c6260a90f11ebb62c79836f2fb18b"
+        }
+    ]
+}

@@ -1,0 +1,305 @@
+{
+    "version": "0.2",
+    "last_update": "05/07/2021",
+    "refs": {
+        "ahri": "https://cdn.lolchess.gg/images/tft/champions/set4/Ahri.png",
+        "akali": "https://cdn.lolchess.gg/images/tft/champions/set4/Akali.png",
+        "aphelios": "https://cdn.lolchess.gg/images/tft/champions/set4/Aphelios.png",
+        "ashe": "https://cdn.lolchess.gg/images/tft/champions/set4/Ashe.png",
+        "diana": "https://cdn.lolchess.gg/images/tft/champions/set4/Diana.png",
+        "jhin": "https://cdn.lolchess.gg/images/tft/champions/set4/Jhin.png",
+        "jinx": "https://cdn.lolchess.gg/images/tft/champions/set4/Jinx.png",
+        "kalista": "https://cdn.lolchess.gg/images/tft/champions/set4/Kalista.png",
+        "katarina": "https://cdn.lolchess.gg/images/tft/champions/set4/Katarina.png",
+        "lissandra": "https://cdn.lolchess.gg/images/tft/champions/set4/Lissandra.png",
+        "morgana": "https://cdn.lolchess.gg/images/tft/champions/set4/Morgana.png",
+        "nunu": "https://cdn.lolchess.gg/images/tft/champions/set4/Nunu.png",
+        "riven": "https://cdn.lolchess.gg/images/tft/champions/set4/Riven.png",
+        "sett": "https://cdn.lolchess.gg/images/tft/champions/set4/Sett.png",
+        "talon": "https://cdn.lolchess.gg/images/tft/champions/set4/Talon.png",
+        "veigar": "https://cdn.lolchess.gg/images/tft/champions/set4/Veigar.png",
+        "wukong": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/champion/MonkeyKing.png",
+        "yasuo": "https://cdn.lolchess.gg/images/tft/champions/set4/Yasuo.png",
+        "zed": "https://cdn.lolchess.gg/images/tft/champions/set4/Zed.png",
+
+        "bluebuff": "https://cdn.lolchess.gg/images/tft/item/BlueBuff.png",
+        "bt": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3072.png",
+        "hand_of_justice": "https://cdn.lolchess.gg/images/tft/item/HandofJustice.png",
+        "ga": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3026.png",
+        "giant_slayer": "https://cdn.lolchess.gg/images/tft/item/GiantSlayer.png",
+        "gunblade": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3146.png",
+        "ie": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3031.png",
+        "ionik_spark": "https://cdn.lolchess.gg/images/tft/item/IonicSpark.png",
+        "juweled_gauntlet": "https://cdn.lolchess.gg/images/tft/item/ArcaneGauntlet.png",
+        "morellos": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3165.png",
+        "quicksilver": "https://cdn.lolchess.gg/images/tft/item/Quicksilver.png",
+        "rabadons": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3089.png",
+        "rageblade": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3124.png",
+        "rapidfire": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3094.png",
+        "runaans": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3085.png",
+        "shojin": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3161.png",
+        "sunfire": "https://cdn.lolchess.gg/images/tft/item/SunfireCape.png",
+        "titans_resolve": "https://cdn.lolchess.gg/images/tft/item/TitansResolve.png",
+
+        "ap": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3089.png",
+        "as": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3124.png",
+        "dps": "https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/3031.png",
+        "tank": "https://cdn.lolchess.gg/images/tft/item/SunfireCape.png"
+    },
+    "data": [
+        {
+            "id": "1F40FC92DA241694750979EE6CF582F2D5D7D28E18335DE05ABC54D0560E0F5302860C652BF08D560252AA5E74210546F369FBBBCE8C12CFC7957B2652FE9A75",
+            "name": "elderwood + brawler",
+            "comps": ["6x brawler", "4x elderwood"],
+            "carries": ["ashe"],
+            "items": [ 
+                {
+                    "champ": "ashe",
+                    "items": ["quicksilver", "giant_slayer", "dps"]
+                },
+                {
+                    "champ": "nunu",
+                    "items": ["tank"]
+                },
+                {
+                    "champ": "sett",
+                    "items": ["tank", "ap"]   
+                }
+            ],
+            "requirements": ["chosen elderwood/brawler", "items"],
+            "playstyle": ["brawler start", "tahm kench tank item holder", "dps items on dmg carry", "on 9 &rarr; put ap/tank on sett"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=85140020f95d11ea87587bd27c9f3ac7"
+        },
+        {
+            "id": "5267768822EE624D48FCE15EC5CA79CBD602CB7F4C2157A516556991F22EF8C7B5EF7B18D1FF41C59370EFB0858651D44A936C11B7B144C48FE04DF3C6A3E8DA",
+            "name": "dusk + cultist",
+            "comps": ["4-6x dusk", "3x cultist"],
+            "carries": ["riven", "jhin"],
+            "items": [ 
+                {
+                    "champ": "riven",
+                    "items": ["quicksilver", "ionik_spark", "ga", "sunfire", "ap"]
+                },
+                {
+                    "champ": "jhin",
+                    "items": ["rapidfire", "ga", "ie", "giant_slayer"]
+                }
+            ],
+            "requirements": ["dusk chosen", "quicksilver on riven"],
+            "playstyle": ["play cultist early", "transition into dusk from cultist", "6 dusk only with spatula", "when 6 dusk defensive riven", "when 4 dusk 1 offensive item on riven", "roll on 7 until stable at 4-1/2", "roll on 8 until stable on 5-1/2"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=b0d8dce0f8a111eaa87d2b2782c3323f"
+        },
+        {
+            "id": "86745583C26589C435FDCBC45714CCC60CEA510CA0C774A9CB19E648EE9C1F0DF8B20630C83FBA95A8F4B87181D382BF6614D1F8EF5BDADBA694614B167EA16A",
+            "name": "cultist",
+            "comps": ["6-9x cultist"],
+            "carries": ["kalista", "jhin"],
+            "items": [ 
+                {
+                    "champ": "jhin",
+                    "items": ["dps"]
+                },
+                {
+                    "champ": "kalista",
+                    "items": ["as"]
+                }
+            ],
+            "requirements": ["chosen dusk, cultist, keeper, sharpshooter"],
+            "playstyle": ["early cultist &rarr; win streak", "roll on 7/8 until stable", "jhin dmg items", "kalista attack speed items", "decide for one carry!"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=b0d8dce0f8a111eaa87d2b2782c3323f"
+        },
+        {
+            "id": "ACC28DB2BEB7B42BAA1CB0243D401CCB4E3FCE44D7B02879A52799AADFF541522D8822598B2FA664F9D5156C00C924805D75C3868BD56C2ACB81D37E98E35ADC",
+            "name": "sharpshooter",
+            "comps": ["4-6x sharpshooter"],
+            "carries": ["jhin", "jinx"],
+            "items": [ 
+                {
+                    "champ": "jinx",
+                    "items": ["shojin", "shojin", "rageblade"]
+                },
+                {
+                    "champ": "jhin",
+                    "items": ["ga", "dps"]
+                }
+            ],
+            "requirements": ["early jinx items", "chosen sharpshooter"],
+            "playstyle": ["open playstyle &rarr; transistion to this comp", "no nidale because very weak"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=e7d290a0f89e11ea92b0494c0c0b0b81"
+        },
+        {
+            "id": "48FB10B15F3D44A09DC82D02B06581E0C0C69478C9FD2CF8F9093659019A1687BAECDBB38C9E72B12169DC4148690F87467F9154F5931C5DF665C6496CBFD5F5",
+            "name": "enlightened",
+            "comps": ["4-6x enlightened"],
+            "carries": ["morgana", "talon"],
+            "items": [ 
+                {
+                    "champ": "morgana",
+                    "items": ["morellos"]
+                },
+                {
+                    "champ": "talon",
+                    "items": ["dps", "hand_of_justice"]
+                }
+            ],
+            "requirements": ["morello very important", "lots of dps for talon"],
+            "playstyle": ["transition into this comp in mid (e.g. from assassin)", "look for important items early (first carousel)", "sword items for talon"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=673e01f0f89f11ea978eb9105c3855d9"
+        },
+        {
+            "id": "87C568E037A5FA50B1BC911E8EE19A77C4DD3C22BCE9932F86FDD8A216AFE1681C89737FADA6859E91047EECE711EC16DA62D6CCB9FD0DE2C51F132347350D8C",
+            "name": "ninja + assassin/shade",
+            "comps": ["4x ninja"],
+            "carries": ["akali", "zed"],
+            "items": [ 
+                {
+                    "champ": "zed",
+                    "items": ["rapidfire", "quicksilver", "ga", "rageblade"]
+                },
+                {
+                    "champ": "akali",
+                    "items": ["rapidfire", "bluebuff", "quicksilver"]
+                }
+            ],
+            "requirements": ["items", "early ninja buff"],
+            "playstyle": ["play misc until looks like ninja", "slow roll on 6/7 if zed carry", "akali carry 7 on 4-1/2 then roll", "lvl 8 on 5-1/2"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=9d85c5a0f96211ea814d592f95719803"
+        },
+        {
+            "id": "711C22448E721E5491D8245B49425AA861F1FC4A15287F0735E203799B65CFFEC50B5ABD0FDDD91CD643AEB3B530D48F05E258E7E230A94ED5025C1387BB4E1B",
+            "name": "moonligth",
+            "comps": ["3x moonligth", "4x vanguard"],
+            "carries": ["lissandra"],
+            "items": [ 
+                {
+                    "champ": "lissandra",
+                    "items": ["bluebuff", "ap"]
+                }
+            ],
+            "requirements": ["chosen moonlight", "lots of tier 1 moonlights", "items"],
+            "playstyle": ["slow roll for tier 1 moonlights and tier 1 vanguards", "power lvl after moonlight", "play strongest board after that"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=248ad490f96011ea875619b4cc5ed723"
+        },
+        {
+            "id": "19F142B018F307BFDF1C7009D15A29417C96D8678D2982EEBCE4961B2E67EEB118A8EBB1D75B70087C3E65BC793450E3FE4A10002BEFA2D038E5AED4796937F2",
+            "name": "moonlight",
+            "comps": ["3x moonlight", "4x spirit"],
+            "carries": ["aphelios"],
+            "items": [ 
+                {
+                    "champ": "aphelios",
+                    "items": ["ga", "rageblade", "quicksilver"]
+                }
+            ],
+            "requirements": ["chosen aphelios", "items"],
+            "playstyle": ["slow roll for aphelios and other moonlight on 5/6", "brawler if sylas or other tanks", "after tier 4 ahelios &rarr; power lvl"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=038e9500045d11eb837ffb7e1f98aee5"
+        },
+        {
+            "id": "2241BC8FC70705B42EFEAD371FD4982C5BA69917E5B4B895810002644F0386DA9C3131793458C2BF47608480D64A07278133C99912E0BA2DAF23098F3520EB97",
+            "name": "moonlight + assassin",
+            "comps": ["3x moonlight", "6x assassin"],
+            "carries": ["diana"],
+            "items": [ 
+                {
+                    "champ": "diana",
+                    "items": ["gunblade", "tank"]
+                }
+            ],
+            "requirements": ["items", "early chosen moonlight"],
+            "playstyle": ["early chosen moonlight diana or lissandra", "slow roll for diana and lissandra", "add 4-6 assassins and tanks or legendaries"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=48611750f9d511ea9737e3804b6aa32f"
+        },
+        {
+            "id": "507B553B106B1B9963B7AFFB34E5ED14BC1160BBDEA24C094405B306BDCB2520823A0C7DB7DA4B51CF45CBDBAD519EECA9AFFD7103B131D1E65A4974BA56B18D",
+            "name": "duelist",
+            "comps": ["misc"],
+            "carries": ["yasuo"],
+            "items": [ 
+                {
+                    "champ": "yasuo",
+                    "items": ["quicksilver", "ie", "titans_resolve"]
+                }
+            ],
+            "requirements": ["early yasuo chosen", "items"],
+            "playstyle": ["slow roll for yasuo at 5", "then power lvl"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=066d1610f89e11eab399331be3ce1217"
+        },
+        {
+            "id": "FCD8780493D9D11D29031B928A9DA358A6F48627FFF0CB7E80FB8107DE86E0C365DC9CF8FE2FC05A6CE6D75803B78AC894D82A396042312A995EF63B5DD4DD11",
+            "name": "wukong carry",
+            "comps": ["4x mystic", "4x vanguard"],
+            "carries": ["wukong"],
+            "items": [ 
+                {
+                    "champ": "wukong",
+                    "items": ["rapidfire"]
+                }
+            ],
+            "requirements": ["lots of early wukong", "items"],
+            "playstyle": ["slow roll wukong", "play vanguard and mystics"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=410aa5e0f96311ea9663774259f12a57"
+        },
+        {
+            "id": "2AF8A9104B3F64ED640D8C7E298D2D480F03A3610CBC2B33474321EC59024A48592EA8545E41E09D5D1108759DF48EDE0054F225DF39D4F0F312450E0AA9DD25",
+            "name": "warlords",
+            "comps": ["6x warlord"],
+            "carries": ["katarina"],
+            "items": [ 
+                {
+                    "champ": "katarina",
+                    "items": ["gunblade", "quicksilver", "rabadons"]
+                }
+            ],
+            "requirements": ["3 star katarina <span style='color:red;'> or it wont work </span>"],
+            "playstyle": ["chosen katarina", "get her 3 star", "play 3-6 warlord and legendaries"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=ca0ebfa0f96311eab0b75f120a32d011"
+        },
+        {
+            "id": "F10127742E07A7705735572F823574B89AAF1CBE071935CB9E75E5CFEB817700CB484D1100A10AD5C32B59C3D6565211108AA9EF0611D7EC830C1B66F60E614D",
+            "name": "spirit",
+            "comps": ["4x shade", "4x spirit"],
+            "carries": ["zed"],
+            "items": [ 
+                {
+                    "champ": "zed",
+                    "items": ["rapidfire",  "bt", "runaans", "ie"]
+                }
+            ],
+            "requirements": ["chosen zed or chosen spirit", "zed items"],
+            "playstyle": ["slow roll 3 star zed or fast 9", "when fast 9 play lots of spirits/shade/legendaries", "tank items on yuumi"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=4658ef60feab11ea9198a557a0b7b6a5"
+        },
+        {
+            "id": "F14AAE6A0E050B74E4B7B9A5B2EF1A60CECCBBCA39B132AE3E8BF88D3A946C6D8687F3266FD2B626419D8B67DCF1D8D7C0FE72D4919D9BD05EFBD37070CFB41A",
+            "name": "ahri + vanguard",
+            "comps": ["4-6x vanguard", "4x mystic"],
+            "carries": ["ahri"],
+            "items": [ 
+                {
+                    "champ": "ahri",
+                    "items": ["juweled_gauntlet", "shojin", "shojin", "rabadons"]
+                }
+            ],
+            "requirements": ["mystic chosen or vanguard chosen", "items"],
+            "playstyle": ["early play strongest", "ranged caster as item holder for ahri", "then slow roll ahri on 7/8", "defensive build on vanguards"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=5943b810fea611ea923dc5352360f190"
+        },
+        {
+            "id": "F87323BD24C4EDF8B73225C4338A7A5EDABC88C5967D764ACF388AC1BB9FE32EE8C5D1F0E76FDD86F0FC23C4872BF9CE9284EF20C3D10E6A558EDD3B027EF27F",
+            "name": "mages",
+            "comps": ["6x mage"],
+            "carries": ["ahri", "veigar"],
+            "items": [
+                {
+                    "champ": "ahri",
+                    "items": ["rabadons", "bluebuff", "juweled_gauntlet"]
+
+                }
+            ],
+            "requirements": ["mana/ap items", "chosen mage"],
+            "playstyle": ["frontline annie/tanks", "tank items on annie"],
+            "boardUrl": "https://lolchess.gg/builder/set4?deck=bebd02b0f96411ea9e4db17bc0c63309"
+        }
+    ]
+}
