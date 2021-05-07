@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tft-comps/static/css/main.14366e51.chunk.css",
+    "main.js": "/tft-comps/static/js/main.e2d67c3b.chunk.js",
+    "main.js.map": "/tft-comps/static/js/main.e2d67c3b.chunk.js.map",
+    "runtime-main.js": "/tft-comps/static/js/runtime-main.642bbe48.js",
+    "runtime-main.js.map": "/tft-comps/static/js/runtime-main.642bbe48.js.map",
+    "static/js/2.eab67065.chunk.js": "/tft-comps/static/js/2.eab67065.chunk.js",
+    "static/js/2.eab67065.chunk.js.map": "/tft-comps/static/js/2.eab67065.chunk.js.map",
+    "index.html": "/tft-comps/index.html",
+    "precache-manifest.ce1170d6d3fa8a76c7c6d40ee62a852a.js": "/tft-comps/precache-manifest.ce1170d6d3fa8a76c7c6d40ee62a852a.js",
+    "service-worker.js": "/tft-comps/service-worker.js",
+    "static/css/main.14366e51.chunk.css.map": "/tft-comps/static/css/main.14366e51.chunk.css.map",
+    "static/js/2.eab67065.chunk.js.LICENSE.txt": "/tft-comps/static/js/2.eab67065.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.642bbe48.js",
+    "static/js/2.eab67065.chunk.js",
+    "static/css/main.14366e51.chunk.css",
+    "static/js/main.e2d67c3b.chunk.js"
+  ]
+}
